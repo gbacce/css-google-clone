@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Webpage Clone</title>
+
+	<style type="text/css" media="screen">
+
+		* {
+			font-family: arial, sans-serif;
+			font-size: 13px;
+			line-height: 40px
+			color: #000000;
+		}
+
+		.wrapper {
+			position: relative;
+			height: 100vh;
+		}
+
+		.header {
+			position: relative;
+			margin: 15px, 30px;
+			text-align: right;
+			height: 78px;
+		}
+
+		.menu-item {
+			display: inline-block;
+			vertical-align: middle
+		}
+
+		.main {
+			text-align: center;
+			margin-top: 200px;
+		}
+
+
+		.main img {
+			max-width: 100%;
+			/*Adjust this to see how it looks. Takes % of parent height.*/
+		}
+
+		.footer {
+			position: fixed;
+			bottom: 0px;
+			left: 0px;
+			width: 100%;
+			height: 40px;
+			background-color: #F2F2F2;
+			color: #6666666;
+			line-height: 50px;
+		}
+
+		.foot-menu-item {
+			display: inline-block;
+		}
+
+		.right-footer {
+			display: inline-block;
+			position: absolute;
+			right: 0;
+		}
+
+		.left-footer {
+			display:inline-block;
+			position: absolute;
+			left: 0;
+			height: 100%;
+		}
+
+		.left-footer-menu-item {
+			display: inline-block;
+			text-align: right;
+			vertical-align: middle;
+		}
+
+		.advertising {
+			width: 96px;
+		}
+
+		.business {
+			width: 84px;
+		}
+
+		.about {width: 67px;}
+
+		.terms {
+			width: 67px;
+			text-align: right;
+		}
+
+		.settings {
+			width: 106px;
+			text-align: center;
+		}
+
+		.right-footer-menu-item {
+			display: inline-block;
+		}
+
+		.search-bar {
+			display: inline-block;
+		}
+
+		.search-bar-image {
+			display:inline-block;
+		}
+
+		.button {
+			display: inline-block;
+			font-weight: bold;
+			line-height: 27px;
+			color: #666666;
+			background-color: #F2F2F2;
+			margin: 32px 5px ;
+		}
+
+		.googlesearch {
+			width: 126px;
+			height: 36px;
+		}
+
+		.feelinglucky {
+			width: 142px;
+			height: 36px;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<div class="header">
+			<div class="menu-item 1">
+				Gmail
+			</div>
+			<div class="menu-item 2">
+				Images
+			</div>
+			<div class="menu-item 3">
+				<img src="images/navbar1.png"/>
+			</div>
+			<div class="menu-item 4">
+				<img src="images/navbar2.png"/>
+			</div>
+			<div class="menu-item 5">
+				<img src="images/navbar3.png"/>
+			</div>
+		</div>
+
+
+		<div class="main">
+
+		 	<img src="images/google-logo.png"/>
+		 	
+		 	<div class="search-bar-wrapper">
+			 	<div class="search-bar">
+			 		<input type="text"/>
+			 	</div>
+			 	<div class="search-bar-image">
+			 		<img src="images/searchbar-mic.png"/>
+			 	</div>
+			 </div>
+
+		 	<div class="button-holder">
+		 		<div class="button googlesearch">
+		 			Google Search
+		 		</div>
+		 		<div class="button feelinglucky">
+		 			I'm Feeling Lucky
+		 		</div>
+		 	</div>
+
+		</div>
+
+
+		<div class="footer">
+
+			<div class="left-footer">
+				<div class="left-footer-menu-item advertising">
+					Advertising
+				</div>
+				<div class="left-footer-menu-item business">
+					Business
+				</div>
+				<div class="left-footer-menu-item about">
+					About
+				</div>
+			</div>
+
+
+			<div class="right-footer">
+				<div class="right-footer-menu-item privacy">
+					Privacy
+				</div>
+				<div class="right-footer-menu-item terms">
+					Terms
+				</div>
+				<div class="right-footer-menu-item settings">
+					Settings
+				</div>
+			</div>
+		
+		</div>
+
+
+	</div>
+
+</body>
+</html>
+
+
+
+<!-- //TOP//
+Nav bar
+	-Top right corner
+	-Broken into 5 pieces
+	-Will have to steal the images
+
+
+//MIDDLE//
+
+Main
+	-Logo
+	-Search bar
+	-2 buttons (same row)
+
+
+//BOTTOM//
+
+Footer
+	-Left footer
+		-Broken into 3 pieces
+	-Right footer
+		-Broken into 3 pieces -->
